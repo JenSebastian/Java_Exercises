@@ -25,8 +25,8 @@ public class FruitLand {
 
 	public static boolean isPrime(int number) {
 		 
-	    if (number%2==0) {
-	    	return false;									// check if n is a multiple of 2
+	    if (number%2 == 0) {
+	    	return false;							// check if n is a multiple of 2
 	    }  	
 	    for(int i=3; i*i <= number; i+=2) {					 // if not, then just check the odds
 	        if(number%i==0)
@@ -36,7 +36,7 @@ public class FruitLand {
 	}
 	
 	public static boolean isEven(int number) {
-		if (number%2==0) {
+		if (number%2 == 0) {
 	    	return true;									
 	    }
 		return false; 
